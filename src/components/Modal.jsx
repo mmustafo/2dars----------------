@@ -8,14 +8,14 @@ function Modal({ setShowModal, t, deleteTitle }) {
           {t.title}
         </h2>
         <p className="text-gray-600 text-center mb-6">
-          Brat rosta ochirmoqchimisz oylab koring
+          Brat rosta ochirmoqchimisz 
         </p>
         <div className="flex justify-center gap-4">
           <button
             className="px-5 py-2 bg-gray-300 text-gray-700 rounded-lg hover:bg-gray-400 transition"
             onClick={() => setShowModal(false)}
           >
-            oyladm buni ochrmayman
+            yoq
           </button>
           <button
             className="px-5 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition"
@@ -24,7 +24,7 @@ function Modal({ setShowModal, t, deleteTitle }) {
               setShowModal(false);
             }}
           >
-            seryoz ochiraman
+            ha
           </button>
         </div>
       </div>
